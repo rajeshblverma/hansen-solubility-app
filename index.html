@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hansen Solubility | Academic Methodology</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-teal: #008080;
+            --dark-blue: #1a2b3c;
+            --light-bg: #f8fafc;
+            --text-gray: #4a5568;
+            --border-color: #edf2f7;
+        }
+
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-blue);
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            text-align: center;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 100px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .badge {
+            background: #f0fdfa;
+            color: var(--primary-teal);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 24px;
+            border: 1px solid #99f6e4;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 24px;
+            color: #1a202c;
+            letter-spacing: -0.02em;
+        }
+
+        h1 span {
+            color: var(--primary-teal);
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-gray);
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn {
+            padding: 14px 28px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 8px;
+            display: inline-block;
+            transition: all 0.2s ease;
+        }
+
+        .btn-primary { 
+            background: var(--primary-teal); 
+            color: white; 
+            box-shadow: 0 4px 6px rgba(0, 128, 128, 0.2);
+        }
+        
+        .btn-primary:hover {
+            background: #006666;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary { 
+            border: 1px solid #e2e8f0; 
+            color: var(--dark-blue); 
+            background: white;
+        }
+
+        .btn-secondary:hover {
+            background: #f7fafc;
+        }
+
+        /* Parameters Section */
+        .section-title {
+            font-size: 2.25rem;
+            margin-top: 60px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 25px;
+        }
+
+        .card {
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 35px;
+            text-align: left;
+            background: white;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .card:hover { 
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .param-badge {
+            width: 45px;
+            height: 45px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .card h3 { margin: 10px 0; font-size: 1.5rem; }
+        .card p { color: var(--text-gray); margin-bottom: 20px; }
+        
+        .properties-list {
+            padding-left: 20px;
+            font-size: 0.95rem;
+            color: var(--text-gray);
+        }
+
+        /* Formula Box */
+        .formula-container {
+            background-color: var(--light-bg);
+            border: 1px solid #e2e8f0;
+            border-radius: 20px;
+            max-width: 850px;
+            margin: 80px auto;
+            padding: 50px 30px;
+        }
+
+        .formula-display {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.4rem;
+            margin: 25px 0;
+            border: 1px solid #cbd5e0;
+            color: #2d3748;
+            overflow-x: auto;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <div class="badge">Scientific Solubilizer Selection</div>
+        <h1>Precision Solubiliser Selection Using <span>Hansen Solubility</span></h1>
+        <p class="subtitle">Leverage advanced three-dimensional solubility modeling to find the perfect solvent match for your chemical compounds with unprecedented accuracy.</p>
+        
+        <a href="https://aistudio.google.com/apps/drive/1jophAalhNAofe__9FwMTx8m6Z7RcTlH4?fullscreenApplet=true&showPreview=true&showAssistant=true" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="btn btn-primary">
+           Get Started →
+        </a>
+        
+        <a href="#methodology" class="btn btn-secondary">Learn More</a>
+    </header>
+
+    <section id="methodology">
+        <h2 class="section-title">The Three Hansen Parameters</h2>
+        <p style="color: var(--text-gray); max-width: 600px; margin: 0 auto;">A comprehensive framework for understanding molecular interactions through three distinct force components.</p>
+        
+        <div class="grid-container">
+            <div class="card">
+                <div class="param-badge" style="background: #00a8a8;">δD</div>
+                <h3>Dispersion Forces</h3>
+                <p>London dispersion interactions arising from temporary dipoles in molecules.</p>
+                <strong>Key Properties:</strong>
+                <ul class="properties-list">
+                    <li>Universal to all substances</li>
+                    <li>Temperature dependent</li>
+                    <li>Weakest intermolecular force</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="param-badge" style="background: #ed8936;">δP</div>
+                <h3>Polar Forces</h3>
+                <p>Permanent dipole-dipole interactions significant in polar molecules and affect solubility.</p>
+                <strong>Key Properties:</strong>
+                <ul class="properties-list">
+                    <li>Orientation dependent</li>
+                    <li>Stronger than dispersion</li>
+                    <li>Critical for polar solvents</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="param-badge" style="background: #667eea;">δH</div>
+                <h3>Hydrogen Bonding</h3>
+                <p>Special dipole-dipole interactions involving hydrogen atoms bonded to electronegative atoms.</p>
+                <strong>Key Properties:</strong>
+                <ul class="properties-list">
+                    <li>Strongest intermolecular force</li>
+                    <li>Highly directional</li>
+                    <li>Dominant in protic solvents</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="formula-container">
+            <h3>The Hansen Sphere Concept</h3>
+            <p>Hansen Solubility Parameters define a three-dimensional space where solubility is predicted by the distance between a solute and solvent.</p>
+            
+            <div class="formula-display">
+                Ra² = 4(δD₁ - δD₂)² + (δP₁ - δP₂)² + (δH₁ - δH₂)²
+            </div>
+            
+            <p style="font-size: 0.85rem; color: var(--text-gray);">The factor of 4 on the dispersion term accounts for its relatively larger contribution to total solubility.</p>
+        </div>
+    </section>
+
+    <footer style="padding: 40px; color: #a0aec0; font-size: 0.9rem;">
+        &copy; 2024 Academic Project | Built for Hansen Solubility Research
+    </footer>
+
+</body>
+</html>"Initial website setup,"
